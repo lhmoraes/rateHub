@@ -1,0 +1,20 @@
+
+# Compile TypeScript
+sudo tsc
+
+# Execute Nodejs App
+node dist/main.js &
+
+# Install NodeJS
+https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version
+
+node -v
+v8.11.2
+
+npm -v
+5.6.0
+
+# Create Mysql User
+GRANT ALL PRIVILEGES ON *.* TO 'ratehub'@'localhost' IDENTIFIED BY '325498';
+
+ec2-52-43-83-228.us-west-2.compute.amazonaws.com
