@@ -1,0 +1,5 @@
+
+chmod 400 RateHub.pem
+
+ssh -i RateHub.pem ubuntu@ec2-52-43-83-228.us-west-2.compute.amazonaws.com
+
