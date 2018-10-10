@@ -78,10 +78,6 @@ export class AccountService {
         }
     });
 
-    // c.on('schedule',function(options){
-      // options.proxy = "http://oproxy.fg.rbc.com:8080";
-    // });
-
     // Queue just one URL, with default callback
     crawler.queue('https://www.ratehub.ca/savings-accounts/best-savings-accounts');  
 
